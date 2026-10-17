@@ -843,7 +843,7 @@ const int BITS_CHILD_PATT_INDEX = 16;
 
 // Number of bits to represent index of where the child pointers start for this node in
 // the Child map array and its bit position
-const int BITS_CHILD_MAP_INDEX = 18;
+const int BITS_CHILD_MAP_INDEX = 20;
 const int SHIFT_CHILD_MAP_INDEX = BITS_CHILD_PATT_INDEX;
 
 // Bit positions of word ending indicator and indicator for number of word endings for this + child nodes is >= 256
