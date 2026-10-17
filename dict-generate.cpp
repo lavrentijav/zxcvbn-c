@@ -839,7 +839,7 @@ void MakeChildBitMap(StringIntSet_t & StrSet, NodeSPtr Root, int & Loc)
 
 // Constants defining bit positions of node data
 // Number of bits to represent the index of the child char pattern in the final child bitmap array,
-const int BITS_CHILD_PATT_INDEX = 14;
+const int BITS_CHILD_PATT_INDEX = 16;
 
 // Number of bits to represent index of where the child pointers start for this node in
 // the Child map array and its bit position
